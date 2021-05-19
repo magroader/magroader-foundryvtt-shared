@@ -1,0 +1,36 @@
+{   
+    "name": "magroader-foundryvtt-shared",   
+    "title": "MagRoader's Shared Data",   
+    "description": "For sharing my FoundryVTT Data. Would be private, but then FoundryVTT couldn't see it (I think).",   
+    "author": "Mag Roader",
+	"systems": ["dnd5e"],
+    "version": "0.0.1",
+    "minimumCoreVersion": "0.7.9",
+    "compatibleCoreVersion":"0.7.9",
+    "packs": [
+        {
+          "name": "scenes",
+          "label": "MagRoader Shared Scenes",
+          "path": "packs/scenes.db",
+          "entity": "Scene",
+          "module": "magroader-foundryvtt-shared"
+        },
+        {
+          "name": "journals",
+          "label": "MagRoader Shared Journals",
+          "path": "packs/scenes.db",
+          "entity": "JournalEntry",
+          "module": "magroader-foundryvtt-shared"
+        }
+    ],
+    "dependencies": [
+        {
+            "name": "compendium-folders",
+            "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json"
+        },
+        {
+            "name": "moar-folders",
+            "manifest": "https://raw.githubusercontent.com/KayelGee/moar-folders/master/module.json"
+        }
+    ]
+  }
