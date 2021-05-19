@@ -7,6 +7,7 @@
     "version": "0.0.1",
     "minimumCoreVersion": "0.7.9",
     "compatibleCoreVersion":"0.7.9",
+    "url": "https://github.com/magroader/magroader-foundryvtt-shared",
     "manifest": "https://raw.githubusercontent.com/magroader/magroader-foundryvtt-shared/main/module.json",
     "download": "https://github.com/magroader/magroader-foundryvtt-shared/archive/refs/heads/main.zip",
     "packs": [
