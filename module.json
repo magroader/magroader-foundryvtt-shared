@@ -20,7 +20,7 @@
         {
           "name": "journals",
           "label": "MagRoader Shared Journals",
-          "path": "packs/scenes.db",
+          "path": "packs/journals.db",
           "entity": "JournalEntry",
           "module": "magroader-foundryvtt-shared"
         }
