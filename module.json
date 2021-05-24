@@ -1,10 +1,10 @@
 {   
     "name": "magroader-foundryvtt-shared",   
-    "title": "MagRoader's Shared Data",   
+    "title": "Mag Roader's Shared Data",   
     "description": "For sharing my FoundryVTT Data. Would be private, but then FoundryVTT couldn't see it (I think).",   
     "author": "Mag Roader",
 	"systems": ["dnd5e"],
-    "version": "0.0.1",
+    "version": "0.0.2",
     "minimumCoreVersion": "0.7.9",
     "compatibleCoreVersion":"0.7.9",
     "url": "https://github.com/magroader/magroader-foundryvtt-shared",
@@ -12,17 +12,31 @@
     "download": "https://github.com/magroader/magroader-foundryvtt-shared/archive/refs/heads/main.zip",
     "packs": [
         {
-          "name": "scenes",
-          "label": "MagRoader Shared Scenes",
-          "path": "packs/scenes.db",
+          "name": "dotmm-scenes",
+          "label": "Shared Scenes - DotMM",
+          "path": "packs/dotmm/scenes.db",
           "entity": "Scene",
           "module": "magroader-foundryvtt-shared"
         },
         {
-          "name": "journals",
-          "label": "MagRoader Shared Journals",
-          "path": "packs/journals.db",
+          "name": "dotmm-journals",
+          "label": "Shared Journals - DotMM",
+          "path": "packs/dotmm/journals.db",
           "entity": "JournalEntry",
+          "module": "magroader-foundryvtt-shared"
+        },
+        {
+          "name": "macros",
+          "label": "Shared Macros",
+          "path": "packs/macros.db",
+          "entity": "Macro",
+          "module": "magroader-foundryvtt-shared"
+        },
+        {
+          "name": "dotmm-macros",
+          "label": "Shared Macros - DotMM",
+          "path": "packs/dotmm/journals.db",
+          "entity": "Macro",
           "module": "magroader-foundryvtt-shared"
         }
     ],
